@@ -1,0 +1,42 @@
+#area {
+    width: 800px;
+    height: 400px;
+    background-color: #eef;
+    border-color: #000;
+    border-width: 1px;
+    border-style: solid;
+    position: absolute;
+}
+
+.vpn {
+    background-image: url('debian.png');
+    width: 48px;
+    height: 48px;
+    position: absolute;
+}
+
+.client {
+    background-image: url('laptop.png');
+    width: 48px;
+    height: 48px;
+    position: absolute;
+}
+
+.router {
+    background-image: url('router.png');
+    width: 48px;
+    height: 48px;
+    position: absolute;
+}
+
+.line {  
+    position:absolute; /* doesn't have to be absolute */  
+    z-index: -1;         /* places the line behind other elements */  
+}  
+   
+.line div {  
+    position:absolute;  
+    left: 0px; top: 0px;  
+    border-left-color: transparent;  
+    border-style: solid;  
+} 
